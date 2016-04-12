@@ -1,0 +1,11 @@
+window.addEventListener(
+    'load',
+    function(){
+        document.getElementById("run").addEventListener(
+            "click",
+            function(){
+                window.open("window.html",null,"chrome=yes");
+            }
+        );
+    }
+);

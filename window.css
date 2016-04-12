@@ -1,0 +1,50 @@
+html {
+    margin: 1em;
+    padding: 0;
+}
+
+body, table, table * {
+    margin: 0;
+    padding: 0;
+}
+
+#restart {
+    display: block;
+    margin: 0 auto;
+}
+
+table {
+    margin: 1em auto;
+    padding: 0;
+    border-collapse: collapse;
+}
+
+#table tr td {
+    border: 1px solid black;
+}
+
+#table tr td button {
+    background: none;
+    border: none;
+
+    width: 2em;
+    height: 2em;
+    padding: 0;
+    margin: 0.25em;
+    font-size: 1.5em;
+}
+
+#table tr td button::-moz-focus-inner {
+    border: 0;
+}
+
+#log-container{
+    margin: 0.5em;
+    overflow: auto;
+    height: 7em;
+    border: 2px inset gray;
+}
+
+#log {
+    margin: 0.75em 1em;
+}
