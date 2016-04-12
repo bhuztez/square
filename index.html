@@ -2,11 +2,30 @@
 <html>
 <head>
 <meta charset="utf-8" />
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.min.css" rel="stylesheet" type="text/css" />
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/codemirror.min.js"></script>
+<script type="application/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/5.13.4/mode/javascript/javascript.min.js"></script>
+<link href="editor.css" rel="stylesheet" type="text/css" />
 <script type="application/javascript;version=1.8" src="editor.js"></script>
 </head>
 <body>
-<textarea id="editor"></textarea>
+
+<div id="left-container">
 <button id="run">Run</button>
+<div id="filelist">
+<button>empty.js</button>
+<button>abcd.js</button>
+</div>
+</div>
+
+<div id="right-container">
+<textarea id="editor">
+</textarea>
+
+</div>
+
+</div>
 
 </body>
 </html>

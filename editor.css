@@ -1,0 +1,64 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  display: flex;
+}
+
+body>div{
+  box-sizing: border-box;
+  margin:0;
+  height: 100%;
+}
+
+#left-container{
+  flex-basis: fill;
+  font-family: monospace;
+  padding: 0.5em 0 0.5em 0.5em;
+  text-align: center;
+}
+
+#right-container{
+  flex: 1 1 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#filelist{
+  margin-top: 1em;
+  border-top: 1px solid #DDD;
+}
+
+button::-moz-focus-inner {
+  border: 0;
+}
+
+#filelist>button{
+  text-align: right;
+  display: block;
+  border: none;
+  margin: 0;
+  width: 100%;
+  border-bottom: 1px dotted #DDD;
+  padding: 0.5em 0.5em 0.5em 1.5em;
+  background: #F7F7F7;
+  color: #999;
+}
+
+#filelist>button:hover{
+  color: #444;
+}
+
+#filelist>button[disabled]{
+  background: #FFF;
+  color: #000;
+}
+
+.CodeMirror{
+  border: 1px solid #DDD;
+  height: 100%;
+}
